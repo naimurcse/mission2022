@@ -411,3 +411,59 @@ header {}
 
 
 /* Develop Section End */
+
+
+/* Community section start */
+
+.community-section {
+    background-image: url(/images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 12%;
+    background-position: bottom right;
+    margin-bottom: 50px;
+    background-position-x: 95%;
+}
+
+.community-container {
+    display: flex;
+    align-items: center;
+}
+
+.community-content {
+    width: 50%;
+}
+
+.community-content h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.community-content p {
+    font-family: 'Poppins', sans-serif;
+    color: #3e3e3e;
+    line-height: 1.8;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 20px 0 40px 0;
+}
+
+.community-content a {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+
+.community-content a:hover {
+    background-color: #4a15ce;
+}
+
+.community-image {
+    width: 50%;
+    padding: 50px;
+}
+
+.community-image img {
+    max-width: 100%;
+}
+
+
+/* Community section End */
