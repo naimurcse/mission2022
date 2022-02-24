@@ -509,19 +509,64 @@ footer p {
 
 .specilizing-section {}
 
-.specilizing-cards {}
+.specilizing-section h2 {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Poppins';
+    margin-bottom: 20px;
+    color: #064e4b;
+}
 
-.specilizing-card {}
+.specilizing-section h2 span {
+    color: #06a3a3;
+}
 
-.specilizing-card .icon-area {}
+.specilizing-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px 0 100px 0;
+}
 
-.specilizing-card .icon-area img {}
+.specilizing-card {
+    width: 45%;
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
 
-.specilizing-card .content-area {}
+.specilizing-card .icon-area {
+    width: 20%;
+    background: #cee9f7;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.specilizing-card .content-area h4 {}
+.specilizing-card .icon-area img {
+    max-width: 100%;
+    width: 40px;
+}
 
-.specilizing-card .content-area p {}
+.specilizing-card .content-area {
+    width: 80%;
+    padding-left: 25px;
+}
+
+.specilizing-card .content-area h4 {
+    font-size: 26px;
+}
+
+.specilizing-card .content-area p {
+    font-family: 'Poppins', sans-serif;
+    color: #3e3e3e;
+    line-height: 1.6;
+    font-weight: 300;
+    font-size: 16px;
+}
 
 
 /* Specilizing section end */
