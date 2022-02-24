@@ -73,9 +73,14 @@ header {}
 
 .header-content a {
     margin: 20px 0 35px 0;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
 }
 
-.header-content a:hover {}
+.header-content a:hover {
+    background-color: #4a15ce;
+}
 
 .header-image {
     width: 50%;
