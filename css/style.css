@@ -133,6 +133,220 @@ header {}
     margin-bottom: 15px;
 }
 
+.mission-card p {
+    font-family: 'Poppins', sans-serif;
+    color: #3e3e3e;
+    line-height: 1.8;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.mission-cards .card-1 {
+    background-color: #cee9f7;
+}
+
+.mission-cards .card-2 {
+    background-color: #daffc6;
+}
+
+.mission-cards .card-3 {
+    background-color: #ffe2c6;
+}
+
+
+/* my-mission section end */
+
+
+/* Develop Section Start */
+
+.develop-section {
+    background-image: url(/images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: left center;
+    background-position-x: 25px;
+}
+
+.develop-container {
+    display: flex;
+    align-items: center;
+}
+
+.develop-image {
+    width: 50%;
+    padding: 50px;
+}
+
+.develop-image img {
+    max-width: 100%;
+}
+
+.develop-content {
+    width: 50%;
+}
+
+.develop-content h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.develop-content P {
+    font-family: 'Poppins', sans-serif;
+    color: #3e3e3e;
+    line-height: 1.8;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 20px 0 40px 0;
+}
+
+.develop-content a {}
+
+.develop-content a:hover {}
+
+
+/* Develop Section End */
+
+
+/* Google Fonts Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #3e3e3e;
+}
+
+h1 {
+    font-family: 'Yeseva One', cursive;
+    color: #333333;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+/* Button Style*/
+
+.btn {
+    font-size: 16;
+    font-weight: 700;
+    padding: 15px 40px;
+    background: #5c28e1;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+
+/* Header Start */
+
+header {}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-content {
+    width: 50%;
+}
+
+.header-content h1 {
+    border-left: 5px solid #5c28e1;
+    padding-left: 20px;
+    font-size: 60px;
+    line-height: .75;
+    margin-bottom: 40px;
+}
+
+.header-content h1 span {
+    color: #06a3a3;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.header-container p {
+    width: 70%;
+    font-family: 'Poppins', sans-serif;
+    color: #3e3e3e;
+    line-height: 1.8;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.header-content a {
+    margin: 20px 0 35px 0;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.header-content a:hover {
+    background-color: #4a15ce;
+}
+
+.header-image {
+    width: 50%;
+    padding: 60px;
+}
+
+.header-image img {
+    max-width: 100%;
+}
+
+
+/* Header End */
+
+
+/* my-mission section start */
+
+.my-mission {
+    margin-bottom: 100px;
+}
+
+.my-mission h2 {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Poppins';
+    margin-bottom: 20px;
+    color: #064e4b;
+}
+
+.my-mission h2 span {
+    color: #06a3a3;
+}
+
+.mission-cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mission-card {
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.mission-card img {
+    width: 130px;
+}
+
+.mission-card h4 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
 .mission-card p {}
 
 .mission-cards .card-1 {
@@ -149,3 +363,51 @@ header {}
 
 
 /* my-mission section end */
+
+
+/* Develop Section Start */
+
+.develop-section {
+    background-image: url(/images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: left center;
+    background-position-x: 25px;
+    margin-bottom: 50px;
+}
+
+.develop-container {
+    display: flex;
+    align-items: center;
+}
+
+.develop-image {
+    width: 50%;
+    padding: 50px;
+}
+
+.develop-image img {
+    max-width: 100%;
+}
+
+.develop-content {
+    width: 50%;
+}
+
+.develop-content h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.develop-content a {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.develop-content a:hover {
+    background-color: #4a15ce;
+}
+
+
+/* Develop Section End */
