@@ -2,6 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     color: #3e3e3e;
@@ -11,3 +18,73 @@ h1 {
     font-family: 'Yeseva One', cursive;
     color: #333333;
 }
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+/* Button Style*/
+
+.btn {
+    font-size: 16;
+    font-weight: 700;
+    padding: 15px 40px;
+    background: #5c28e1;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+
+/* Header Start */
+
+header {}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-content {
+    width: 50%;
+}
+
+.header-content h1 {
+    border-left: 5px solid #5c28e1;
+    padding-left: 20px;
+    font-size: 60px;
+    line-height: .75;
+    margin-bottom: 40px;
+}
+
+.header-content h1 span {
+    color: #06a3a3;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.header-container p {
+    width: 70%;
+}
+
+.header-content a {
+    margin: 20px 0 35px 0;
+}
+
+.header-content a:hover {}
+
+.header-image {
+    width: 50%;
+    padding: 60px;
+}
+
+.header-image img {
+    max-width: 100%;
+}
+
+
+/* Header End */
