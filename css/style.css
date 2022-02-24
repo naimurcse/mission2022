@@ -93,3 +93,59 @@ header {}
 
 
 /* Header End */
+
+
+/* my-mission section start */
+
+.my-mission {
+    margin-bottom: 100px;
+}
+
+.my-mission h2 {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Poppins';
+    margin-bottom: 20px;
+    color: #064e4b;
+}
+
+.my-mission h2 span {
+    color: #06a3a3;
+}
+
+.mission-cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mission-card {
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.mission-card img {
+    width: 130px;
+}
+
+.mission-card h4 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.mission-card p {}
+
+.mission-cards .card-1 {
+    background-color: #cee9f7;
+}
+
+.mission-cards .card-2 {
+    background-color: #daffc6;
+}
+
+.mission-cards .card-3 {
+    background-color: #ffe2c6;
+}
+
+
+/* my-mission section end */
