@@ -474,37 +474,6 @@ header {}
 /* Community section End */
 
 
-/* Footer Start */
-
-footer {
-    background-color: #161616;
-    padding: 47px 0;
-}
-
-footer h3 {
-    font-family: 'Lobster', cursive;
-    text-align: center;
-    font-size: 36px;
-    color: #fff;
-    margin-bottom: 15px;
-    text-transform: capitalize;
-}
-
-footer h3 span {
-    color: #06a3a3;
-}
-
-footer p {
-    color: #9b9999;
-    font-weight: 300;
-    font-size: 14px;
-    text-align: center;
-}
-
-
-/* Footer End */
-
-
 /* Specilizing section start */
 
 .specilizing-section {}
@@ -537,13 +506,14 @@ footer p {
 
 .specilizing-card .icon-area {
     width: 20%;
-    background: #cee9f7;
+    background: #fbfbfb;
     height: 100px;
     width: 100px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid #06a3a3;
 }
 
 .specilizing-card .icon-area img {
@@ -570,3 +540,34 @@ footer p {
 
 
 /* Specilizing section end */
+
+
+/* Footer Start */
+
+footer {
+    background-color: #161616;
+    padding: 47px 0;
+}
+
+footer h3 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+footer h3 span {
+    color: #06a3a3;
+}
+
+footer p {
+    color: #9b9999;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+/* Footer End */
